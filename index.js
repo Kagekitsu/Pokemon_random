@@ -1,10 +1,10 @@
 const btn = document.querySelector(".getRandomCharacter")
-const nameDiv = document.getElementById("name")
-const idDiv = document.getElementById("id")
-const heightDiv = document.getElementById("height")
-const typeDiv = document.getElementById("type")
-const weightDiv = document.getElementById("weight")
-const abilitiesDiv = document.getElementById("abilities")
+const name = document.getElementById("name")
+const id = document.getElementById("id")
+const height = document.getElementById("height")
+const type = document.getElementById("type")
+const weight = document.getElementById("weight")
+const abilities = document.getElementById("abilities")
 const image = document.querySelector("img")
 
 btn.addEventListener("click", (e) => {
